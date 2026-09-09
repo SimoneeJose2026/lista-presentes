@@ -136,32 +136,6 @@ body {
   line-height: 1.7;
 }
 
-.maps-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: min(100%, 260px);
-  max-width: 100%;
-  margin: 18px auto 0;
-  padding: 14px 18px;
-  border: none;
-  border-radius: 14px;
-  background: linear-gradient(135deg, #5B622B 0%, #7E8750 100%);
-  color: #fff;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  box-shadow: 0 14px 24px rgba(99, 107, 47, 0.18);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
-}
-
-.maps-button:hover {
-  transform: translateY(-1px);
-  opacity: 0.96;
-  box-shadow: 0 18px 28px rgba(99, 107, 47, 0.2);
-}
-
 .map-card {
   margin-top: 18px;
   position: relative;
@@ -582,11 +556,6 @@ footer {
 
   .location-address {
     font-size: 0.92rem;
-  }
-
-  .maps-button {
-    width: 100%;
-    margin-top: 16px;
   }
 
   .map-card {
