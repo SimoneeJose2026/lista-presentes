@@ -30,6 +30,13 @@ body {
   display: block;
 }
 
+.hero-message {
+  margin-top: 18px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
 .hero h1 {
   font-family: "Great Vibes", cursive;
   font-size: clamp(3rem, 5vw, 4.2rem);
